@@ -13,11 +13,15 @@
 
         public bool IsValidKey(string key)
         {
+            if (String.IsNullOrEmpty(key))
+                return false;
             return key.Equals(_key) ? true : false;
         }
 
         public bool IsValidDevKey(string key)
         {
+            if (String.IsNullOrEmpty(key))
+                return false;
             return key.Equals(_devKey) ? true : false;
         }
     }
