@@ -1,0 +1,3 @@
+﻿Server:   projsdbserver.database.windows.net
+Login:    Ann
+Password: Pa1ss23!_Ar
